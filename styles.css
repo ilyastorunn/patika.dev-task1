@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+}
+.navbar h3 {
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    margin: 14px 5px 9px 5px;
+    color: #F4E3C7;
+}
+.navbar a {
+    float: left;
+    color: #F4E3C7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: #10CFE8;
+    color: white;
+}
+.home {
+    margin-left: 10px;
+    margin-right: 5px;
+}
